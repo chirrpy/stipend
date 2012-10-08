@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     stipend (0.0.1)
+      activerecord (~> 3.1.8)
 
 GEM
   remote: https://rubygems.org/
@@ -53,7 +54,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (~> 3.1.8)
   awesome_print (~> 1.1.0)
   fuubar (~> 1.0)
   guard (~> 1.4.0)
