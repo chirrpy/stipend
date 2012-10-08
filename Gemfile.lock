@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    stipend (0.0.1)
+    stipend (0.0.3)
       activerecord (~> 3.1.8)
 
 GEM
