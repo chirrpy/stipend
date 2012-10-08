@@ -20,6 +20,12 @@ RSpec.configure do |config|
           t.string   :foo
           t.string   :bar
         end
+
+        create_table :overrides_test_types do |t|
+          t.string   :type
+          t.string   :foo
+          t.string   :bar
+        end
       end
     end
 
