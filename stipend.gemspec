@@ -29,13 +29,9 @@ Gem::Specification.new do |s|
   s.require_paths         = ["lib"]
   #= Manifest =#
 
-  s.add_dependency              'activerecord',         '~> 3.1.8'
+  s.add_dependency              'activerecord',         '~> 3.2'
 
-  s.add_development_dependency  'rspec',                '~> 2.11'
-  s.add_development_dependency  'fuubar',               '~> 1.0'
-  s.add_development_dependency  'guard',                '~> 1.4.0'
-  s.add_development_dependency  'guard-rspec',          '~> 2.0.0'
-  s.add_development_dependency  'rb-fsevent',           '~> 0.9.1'
-  s.add_development_dependency  'awesome_print',        '~> 1.1.0'
-  s.add_development_dependency  'sqlite3',              '~> 1.3.6'
+  s.add_development_dependency  'rspec',                '~> 2.12'
+  s.add_development_dependency  'rspectacular',         '~> 0.5'
+  s.add_development_dependency  'sqlite3',              '~> 1.3'
 end
